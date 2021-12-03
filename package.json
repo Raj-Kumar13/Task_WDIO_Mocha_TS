@@ -1,0 +1,26 @@
+{
+  "name": "task_wdio_mocha_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.ts"
+  },
+  "author": "raj kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/faker": "^5.5.9",
+    "@wdio/cli": "^7.16.10",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.16.10",
+    "@wdio/mocha-framework": "^7.16.6",
+    "@wdio/spec-reporter": "^7.16.9",
+    "chromedriver": "^96.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "wdio-chromedriver-service": "^7.2.2",
+    "wdio-mochawesome-reporter": "^4.0.0"
+  }
+}
